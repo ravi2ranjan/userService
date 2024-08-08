@@ -11,5 +11,6 @@ public class UserConfig {
     @Bean
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
+
     }
 }
